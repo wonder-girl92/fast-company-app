@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+**_Приложение с характеристиками для выбора потенциальных друзей в компанию_**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Step1_
 
-## Available Scripts
+- get fetchAll
+- render phrases & count of users
+- delete users
+- change styles by logic
+- Bootstrap@5.1.0
+- 📝
 
-In the project directory, you can run:
+_Step2_
 
-### `yarn start`
+- composing components
+- extracting components
+- lifting state up
+- add favorites by bookmark
+- inline-distructuring props
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_Step3_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- EsLint
+- prettier
+- library lodash
+- pagination
+- division of user's quantity into pages
 
-### `yarn test`
+_Step4_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Promise
+- get data by useEffect()
+- object's & array's iteration
+- filter user's professions which are consist of object & array data
+- paginate filtered user's
+- defaultProps (like id, name)
+- flex-grid
+- oneOfType in PropTypes
+- data reset
 
-### `yarn build`
+_Step5_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- sorting columns
+- creating multipurpose components
+- destructuring props by Spread syntax
+- abstraction layer (development of component's hierarchy)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_Step6_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- react-router-dom
+- router-hooks (useHistory, useParams)
+- redirect
+- navLink
+- choose by Link and id certain user
+- button returning to all users
+- get users by id using Promise
 
-### `yarn eject`
+_Step7_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- forms
+- controlled components
+- universal reused input form for account data
+- validate account data by switch-case & RegExp
+- create errors if login & password are incorrect (through useState, useEffect)
+- submit form's data
+- button type=submit is grayed out (disabled=true) if data entered is incorrect 
+- hide/show password
+- filtration users by searching (through setState(event.target.value); input value = state)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Step8_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- register, log in forms
+- validation of forms
+- set data to localStorage
+- library Yup
+- radioForm, select, multiselect, checkbox
+- update api
+- create userCard
+- add comments by other users
+- change user's data
+- when (time or date) comments are leaving
+- set random avatars
